@@ -1,7 +1,8 @@
+name: Run Hello Python
 on:
   push:
   workflow_dispatch:
-
+  
 jobs:
   run_python_script:
     runs-on: ubuntu-latest
@@ -16,4 +17,4 @@ jobs:
           python-version: '3.x'
 
       - name: Execute Python script
-        run: python act11_print_hello.py
+        run: python Actividad11/act11_print_hello.py
